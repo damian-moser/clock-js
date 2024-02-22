@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    text-align: center;
+    user-select: none;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 999px;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.25);
+    border: 8px #bbbbbb solid;
+}
+
+svg {
+    max-width: 100%;
+    border-radius: 999px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+svg line, svg circle {
+    transform-origin: center;
+}
+
+svg text {
+    font-size: 2rem;
+}
