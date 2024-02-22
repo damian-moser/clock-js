@@ -1,0 +1,6 @@
+version: "3"
+services:
+  clock-js-web:
+    image: git-registry.gibb.ch/dmo140748/modul-347/clock/clock-js:v1
+    ports:
+     - "80"
